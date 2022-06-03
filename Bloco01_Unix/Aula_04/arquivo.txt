@@ -33,12 +33,46 @@ hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix$ git commit -m "trybe-skills-changes
  1 file changed, 17 insertions(+)
  create mode 100644 Bloco01_Unix/Aula_04/arquivo.txt
  
- ## Fazendo alteração no arquivo acrescentando mais duas habilidades
+ ## Fazendo alteração no arquivo, acrescentando mais duas habilidades
  
  hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix$ cd Aula_04
 hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix/Aula_04$ cat >> arquivo.txt 
 SQL
 Node.JS
+
+## verificando status de arquivo modificado, adicionando e comitando arquivo
+
+hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix/Aula_04$ git status
+No ramo main
+Seu ramo está à frente de 'origin/main' por 1 submissão.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (utilize "git add <arquivo>..." para atualizar o que será submetido)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   arquivo.txt
+
+nenhuma modificação adicionada à submissão (utilize "git add" e/ou "git commit -a")
+hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix/Aula_04$ git add arquivo.txt 
+hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix/Aula_04$ git commit -m"alteração no arquivo"
+[main b828f29] alteração no arquivo
+ 1 file changed, 28 insertions(+)
+ 
+ ## Enviando arquivo para o GitHub
+ 
+ hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix/Aula_04$ git push origin
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (10/10), 1.38 KiB | 470.00 KiB/s, done.
+Total 10 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To github.com:hildelio/Trybe-Exercicios.git
+   0a2382d..b828f29  main -> main
+
+
+
 
 
 
