@@ -1,0 +1,17 @@
+
+## Entrando na pasta da aula 04 para criar o arquivo
+
+hildelio@JR:~/Trybe-Exercicios$ cd Bloco01_Unix/
+hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix$ cd Aula_04
+
+## Inserindo conteúdo no arquivo 
+
+hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix/Aula_04$ cat > arquivo.txt 
+O que eu vou aprender na Trybe:
+
+- Unix
+- Bash
+- Git
+- HTML
+- CSS
+
