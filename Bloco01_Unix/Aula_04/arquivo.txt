@@ -15,3 +15,31 @@ O que eu vou aprender na Trybe:
 - HTML
 - CSS
 
+## conferindo status, adicionando arquivo na branch e comitando arquivo
+
+hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix/Aula_04$ cd ..
+hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix$ git status
+No ramo main
+Your branch is up to date with 'origin/main'.
+
+Arquivos não monitorados:
+  (utilize "git add <arquivo>..." para incluir o que será submetido)
+	Aula_04/
+
+nada adicionado ao envio mas arquivos não registrados estão presentes (use "git add" to registrar)
+hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix$ git add .
+hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix$ git commit -m "trybe-skills-changes"
+[main 03f431d] trybe-skills-changes
+ 1 file changed, 17 insertions(+)
+ create mode 100644 Bloco01_Unix/Aula_04/arquivo.txt
+ 
+ ## Fazendo alteração no arquivo acrescentando mais duas habilidades
+ 
+ hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix$ cd Aula_04
+hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix/Aula_04$ cat >> arquivo.txt 
+SQL
+Node.JS
+
+
+
+
