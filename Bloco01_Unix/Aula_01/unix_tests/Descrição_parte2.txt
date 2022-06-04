@@ -1,0 +1,268 @@
+##Na pasta unix_tests, baixe um arquivo com os nomes de todos os países do mundo utilizando o comando curl:
+
+	hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix/Aula_01/unix_tests$ 
+	curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/		486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+	  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+	                                 Dload  Upload   Total   Spent    Left  Speed
+	100  1842  100  1842    0     0    305      0  0:00:06  0:00:06 --:--:--   406
+
+##Mostre todo o conteúdo do arquivo countries.txt na tela.
+
+	hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix/Aula_01/unix_tests$ cat < countries.txt 
+Afghanistan
+Albania
+Algeria
+Andorra
+Angola
+Antigua & Deps
+Argentina
+Armenia
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bhutan
+Bolivia
+Bosnia Herzegovina
+Botswana
+Brazil
+Brunei
+Bulgaria
+Burkina
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Central African Rep
+Chad
+Chile
+China
+Colombia
+Comoros
+Congo
+Congo {Democratic Rep}
+Costa Rica
+Croatia
+Cuba
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+East Timor
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Fiji
+Finland
+France
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Greece
+Grenada
+Guatemala
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Honduras
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland {Republic}
+Israel
+Italy
+Ivory Coast
+Jamaica
+Japan
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea North
+Korea South
+Kosovo
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macedonia
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Mauritania
+Mauritius
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montenegro
+Morocco
+Mozambique
+Myanmar, {Burma}
+Namibia
+Nauru
+Nepal
+Netherlands
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Norway
+Oman
+Pakistan
+Palau
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Poland
+Portugal
+Qatar
+Romania
+Russian Federation
+Rwanda
+St Kitts & Nevis
+St Lucia
+Saint Vincent & the Grenadines
+Samoa
+San Marino
+Sao Tome & Principe
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Sudan
+Spain
+Sri Lanka
+Sudan
+Suriname
+Swaziland
+Sweden
+Switzerland
+Syria
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Togo
+Tonga
+Trinidad & Tobago
+Tunisia
+Turkey
+Turkmenistan
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+Uzbekistan
+Vanuatu
+Vatican City
+Venezuela
+Vietnam
+Yemen
+Zambia
+Zimbabwe
+
+##Mostre o conteúdo de countries.txt, página por página, até encontrar a Zambia.
+
+	hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix/Aula_01/unix_tests$ less countries.txt 
+
+##Busque por Brazil no countries.txt.
+
+	hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix/Aula_01/unix_tests$ grep Brazil countries.txt 
+	Brazil
+
+##Busque novamente por brazil, mas agora utilizando o lower case.
+
+	hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix/Aula_01/unix_tests$ grep -i brazil countries.txt 
+	Brazil
+
+##Para os próximos exercícios, crie um novo arquivo chamado phrases.txt e adicione algumas frases à sua escolha. Não precisa criar o arquivo pelo terminal.
+
+	hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix/Aula_01/unix_tests$ cat > phrases.txt
+Don't Give up
+You can
+Quem acredita alcança
+Ser ou não ser eis a questão.            
+Nem você conhece o seu limite.
+Deus só te dá um fardo que você pode carregar.
+
+##Busque pelas frases que não contenham a palavra fox.
+
+	hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix/Aula_01/unix_tests$ grep -i  *fox* 	countries.txt 
+
+##Conte o número de palavras do arquivo phrases.txt.
+
+	hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix/Aula_01/unix_tests$ wc -w phrases.txt 
+	31 phrases.txt
+
+##Conte o número de linhas do arquivo phrases.txt.
+	hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix/Aula_01/unix_tests$ wc -l phrases.txt 
+	6 phrases.txt
+
+##Crie os arquivos empty.tbt e empty.pdf.
+
+	hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix/Aula_01/unix_tests$ touch empty.tbt empty.pdf
+
+##Liste todos os arquivos do diretório unix_tests.
+
+	hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix/Aula_01/unix_tests$ ls
+	countries.txt  Descrição_parte1.txt  empty.pdf  empty.tbt  phrases.txt  Trybe.txt
+
+##Liste todos os arquivos que terminem com txt.
+	
+	hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix/Aula_01/unix_tests$ ls *txt
+	countries.txt  Descrição_parte1.txt  phrases.txt  Trybe.txt
+
+##Liste todos os arquivos que terminem com tbt ou txt.
+
+	hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix/Aula_01/unix_tests$ ls *txt *tbt
+	countries.txt  Descrição_parte1.txt  empty.tbt  phrases.txt  Trybe.txt
+
+##Acesse o manual do comando ls.
+
+	hildelio@JR:~/Trybe-Exercicios/Bloco01_Unix/Aula_01/unix_tests$ man ls
+
