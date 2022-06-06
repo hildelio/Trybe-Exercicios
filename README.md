@@ -1,4 +1,4 @@
-@@ -0,0 +1,42 @@
+
 ![trybepreto](https://user-images.githubusercontent.com/78765220/171918576-b9bf505b-88a2-4286-a38b-fd6164e8c85d.png)
 
 <div align="center">
@@ -24,10 +24,10 @@ OBS: blocos que não estejam listados tratam-se de blocos exclusivamente direcio
 <hr>
 <h3> Sumário </h3>
 
-* Fundamentos do Desenvolvimento Web
-* Desenvolvimento Front-end
-* Desenvolvimento Back-end
-* Ciencia da Computação
+<a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento">* Fundamentos do Desenvolvimento Web</a>
+<a href="">* Desenvolvimento Front-end</a>
+<a href="">* Desenvolvimento Back-end</a>
+<a href="">* Ciencia da Computação</a>
 
 <hr>
 <h4>Bloco 1</h4>Unix, Bash e ShellScript
