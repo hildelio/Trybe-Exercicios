@@ -1,5 +1,4 @@
-@@ -0,0 +1,42 @@
-![trybepreto](https://user-images.githubusercontent.com/78765220/171918576-b9bf505b-88a2-4286-a38b-fd6164e8c85d.png)
+<p align="center"> <img src="https://user-images.githubusercontent.com/78765220/171918576-b9bf505b-88a2-4286-a38b-fd6164e8c85d.png"></p>
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/78765220/171918576-b9bf505b-88a2-4286-a38b-fd6164e8c85d.png" width="0px" />
@@ -23,12 +22,23 @@ OBS: blocos que não estejam listados tratam-se de blocos exclusivamente direcio
 
 <hr>
 <h3> Sumário </h3>
-
-* Fundamentos do Desenvolvimento Web
-* Desenvolvimento Front-end
-* Desenvolvimento Back-end
-* Ciencia da Computação
-
+<ol>
+<li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento">Fundamentos do Desenvolvimento Web</a> 
+  <ul>
+    <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix">Bloco 01 Unix & Bash</a>
+      <ul>
+      <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix/Aula_01">Aula 01</a>
+      <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix/Aula_02">Aula 02</a>
+    </ul>
+  </ul>
+  <ul>
+    <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco02_Git_GitHub_Internet">Bloco 02 Git GitHub e Internet</a>
+  </ul>
+  
+<li><a href="">Desenvolvimento Front-end</a>
+<li><a href="">Desenvolvimento Back-end</a>
+<li><a href="">Ciencia da Computação</a>
+</ol>
 <hr>
 <h4>Bloco 1</h4>Unix, Bash e ShellScript
 Primeiro bloco de conteúdo, onde fomos nos familiarizando com algumas ferramentas importantes para o ambiente de desenvolvimento. Tendo contado com o terminal, aprendendo a navegar pelas pastas, alterar arquivos, adicionar linhas.
