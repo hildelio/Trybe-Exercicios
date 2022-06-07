@@ -1,0 +1,93 @@
+ildelio@JR:~$  cd ~/trybe-exercicios
+bash: cd: /home/hildelio/trybe-exercicios: Arquivo ou diretório inexistente
+hildelio@JR:~$ cd Trybe-Exercicios/
+hildelio@JR:~/Trybe-Exercicios$  git checkout main
+ git pull
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+Already up to date.
+hildelio@JR:~/Trybe-Exercicios$ git branch exercicios/3.1
+hildelio@JR:~/Trybe-Exercicios$  git checkout -b exercicios/3.1
+fatal: Já existe uma ramificação com o nome 'exercicios/3.1'.
+hildelio@JR:~/Trybe-Exercicios$ ls
+01-Fundamentos-de-Desenvolvimento  README.md
+hildelio@JR:~/Trybe-Exercicios$ cd 01-Fundamentos-de-Desenvolvimento/
+hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento$ cd Bloco03_Introdução_a_HTM_CSS/
+hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco03_Introdu
+ção_a_HTM_CSS$  mkdir dia-1-html-css-estruturas-de-pagina
+ cd dia-1-html-css-estruturas-de-pagina
+hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco03_Introdu
+ção_a_HTM_CSS/dia-1-html-css-estruturas-de-pagina$  git status
+On branch exercicios/3.1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+  modified:   exercicio-1
+No ramo main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+On: comando não encontrado
+Changes: comando não encontrado
+Comando 'use' não encontrado, você quis dizer:
+  comando 'muse' do deb muse (4.0.0-1build1)
+  comando 'nse' do deb ns2 (2.35+dfsg-3.1)
+  comando 'fuse' do deb fuse-emulator-gtk (1.6.0+dfsg1-2)
+  comando 'fuse' do deb fuse-emulator-sdl (1.6.0+dfsg1-2)
+  comando 'ase' do deb ase (3.22.1-1ubuntu1)
+Experimente: sudo apt install <deb name>
+Comando 'use' não encontrado, você quis dizer:
+  comando 'muse' do deb muse (4.0.0-1build1)
+  comando 'fuse' do deb fuse-emulator-gtk (1.6.0+dfsg1-2)
+  comando 'fuse' do deb fuse-emulator-sdl (1.6.0+dfsg1-2)
+  comando 'nse' do deb ns2 (2.35+dfsg-3.1)
+  comando 'ase' do deb ase (3.22.1-1ubuntu1)
+Experimente: sudo apt install <deb name>
+modified:: comando não encontrado
+hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco03_Introdu
+ção_a_HTM_CSS/dia-1-html-css-estruturas-de-pagina$ git status
+No ramo main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco03_Introdu
+ção_a_HTM_CSS/dia-1-html-css-estruturas-de-pagina$ touch exercicio-1.html
+hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco03_Introdu
+ção_a_HTM_CSS/dia-1-html-css-estruturas-de-pagina$ git status
+No ramo main
+Your branch is up to date with 'origin/main'.
+
+Arquivos não monitorados:
+  (utilize "git add <arquivo>..." para incluir o que será submetido)
+	../
+
+nada adicionado ao envio mas arquivos não registrados estão presentes (use "git add" to registrar)
+hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco03_Introdu
+ção_a_HTM_CSS/dia-1-html-css-estruturas-de-pagina$ cd ..
+hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco03_Introdu
+ção_a_HTM_CSS$ cd ..
+hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento$ cd ..
+hildelio@JR:~/Trybe-Exercicios$ git add .
+hildelio@JR:~/Trybe-Exercicios$ git status
+No ramo main
+Your branch is up to date with 'origin/main'.
+
+Mudanças a serem submetidas:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   "01-Fundamentos-de-Desenvolvimento/Bloco03_Introdu\303\247\303\243o_a_HTM_CSS/dia-1-html-css-estruturas-de-pagina/exercicio-1.html"
+
+hildelio@JR:~/Trybe-Exercicios$ git commit -m "bl3 ex1"
+[main 67df0ae] bl3 ex1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "01-Fundamentos-de-Desenvolvimento/Bloco03_Introdu\303\247\303\243o_a_HTM_CSS/dia-1-html-css-estruturas-de-pagina/exercicio-1.html"
+hildelio@JR:~/Trybe-Exercicios$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 594 bytes | 198.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:hildelio/Trybe-Exercicios.git
+   0b512a2..67df0ae  main -> main
+
