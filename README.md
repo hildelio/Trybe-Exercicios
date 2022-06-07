@@ -33,6 +33,11 @@ OBS: blocos que não estejam listados tratam-se de blocos exclusivamente direcio
   </ul>
   <ul>
     <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco02_Git_GitHub_Internet">Bloco 02 Git GitHub e Internet</a>
+      <ul>
+        <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco02_Git_GitHub_Internet/Aula_03">Aula 03</a>
+        <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco02_Git_GitHub_Internet/Aula_04">Aula 04</a>
+        <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco02_Git_GitHub_Internet/Aula_05">Aula 05</a>
+      </ul>
   </ul>
   
 <li><a href="">Desenvolvimento Front-end</a>
