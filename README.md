@@ -38,6 +38,10 @@ OBS: blocos que não estejam listados tratam-se de blocos exclusivamente direcio
         <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco02_Git_GitHub_Internet/Aula_04">Aula 04</a>
         <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco02_Git_GitHub_Internet/Aula_05">Aula 05</a>
       </ul>
+    <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco03_Introdução_a_HTM_CSS">Bloco 03 Introdução à HTML e CSS</a>
+      <ul>
+       <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco03_Introdução_a_HTM_CSS/Aula_06">Aula 06</a>
+      </ul>
   </ul>
   
 <li><a href="">Desenvolvimento Front-end</a>
