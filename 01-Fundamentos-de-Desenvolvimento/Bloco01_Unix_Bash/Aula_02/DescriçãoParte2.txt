@@ -1,0 +1,24 @@
+hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_02/unix_tests$ ls -l
+total 24
+-rw-rw-r-- 1 hildelio hildelio 1994 jun  3 22:17 bunch_of_things.txt
+-rw-rw-r-- 1 hildelio hildelio 1842 jun  3 21:39 countries.txt
+-rw-rw-r-- 1 hildelio hildelio    0 jun  3 21:39 empty.pdf
+-rw-rw-r-- 1 hildelio hildelio    0 jun  3 21:39 empty.tbt
+-rw-rw-r-- 1 hildelio hildelio  151 jun  3 22:15 phrases2.txt
+-rw-rw-r-- 1 hildelio hildelio  159 jun  3 21:39 phrases.txt
+-rw-rw-r-- 1 hildelio hildelio   49 jun  3 21:54 skill2.txt
+-rw-rw-r-- 1 hildelio hildelio   28 jun  3 22:02 top_skills.txt
+-rw-rw-r-- 1 hildelio hildelio    0 jun  3 21:39 Trybe.txt
+hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_02/unix_tests$ chmod 666 bunch_of_things.txt 
+hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_02/unix_tests$ ls -l
+total 24
+-rw-rw-rw- 1 hildelio hildelio 1994 jun  3 22:17 bunch_of_things.txt
+-rw-rw-r-- 1 hildelio hildelio 1842 jun  3 21:39 countries.txt
+-rw-rw-r-- 1 hildelio hildelio    0 jun  3 21:39 empty.pdf
+-rw-rw-r-- 1 hildelio hildelio    0 jun  3 21:39 empty.tbt
+-rw-rw-r-- 1 hildelio hildelio  151 jun  3 22:15 phrases2.txt
+-rw-rw-r-- 1 hildelio hildelio  159 jun  3 21:39 phrases.txt
+-rw-rw-r-- 1 hildelio hildelio   49 jun  3 21:54 skill2.txt
+-rw-rw-r-- 1 hildelio hildelio   28 jun  3 22:02 top_skills.txt
+-rw-rw-r-- 1 hildelio hildelio    0 jun  3 21:39 Trybe.txt
+hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_02/unix_tests$ chmod 644 bunch_of_things.txt 

@@ -1,0 +1,75 @@
+##Liste todos os processos;
+
+	hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_02$ ps
+    	PID TTY          TIME CMD
+  	20381 pts/0    00:00:00 bash
+  	25232 pts/0    00:00:00 ps
+
+##Agora use o comando sleep 30 &
+
+	hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_02$ sleep 30&
+	[1] 25234
+
+##Use a listagem de processos para encontrar o PID do processo que está executando o comando sleep 30 e termine a sua execução (mate o processo)
+
+	hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_02$ kill 25234
+	[1]+  Terminado               sleep 30
+
+##Execute novamente o comando sleep 30, mas agora sem o &. Depois, faça com que ele continue executando em background
+
+	hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_02$ sleep 30
+	^Z
+	[1]+  Parado                  sleep 30
+	hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_02$ bg %1
+	[1]+ sleep 30 &
+
+##Crie um processo em background que rode o comando sleep por 300 segundos.
+	
+	hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_02$ sleep 300&
+	[1] 25737
+
+##Crie mais dois processos que rodem o comando sleep por 200 e 100 segundos, respectivamente.
+Você deve criá-los em foreground (sem usar o &) e suspendê-los (apertando ctrl+z) após cada um começar a executar.
+
+	hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_02$ sleep 200
+	^Z
+	[2]+  Parado                  sleep 200
+	hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_02$ sleep 100
+	^Z
+	[3]+  Parado                  sleep 100
+
+	hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_02$ jobs
+	[1]   Executando              sleep 300 &
+	[2]-  Parado                  sleep 200
+	[3]+  Parado                  sleep 100
+	
+##Verifique que apenas o processo sleep 300 está em execução com o comando jobs. Suspenda a execução desse processo.
+Você vai precisar trazer o processo para foreground (fg) e suspendê-lo (ctrl+z), ou enviar um sinal.
+	
+	hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_02$ jobs
+	[1]   Executando              sleep 300 &
+	[2]-  Parado              sleep 200 
+	[3]+  Parado              sleep 100
+	hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_02$ fg %1
+	sleep 300
+	^Z
+	[1]+  Parado                  sleep 300
+
+##Retome a execução do processo sleep 100 em background com o comando bg.
+
+	hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_02$ bg %3
+	[2]+ sleep 100 &
+
+	hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_02$ jobs
+	[1]+  Parado                  sleep 300
+	[2]-  Parado            	sleep 200 
+	[2]-  Executando              sleep 100 &
+	
+	hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_02$ kill %1
+	hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_02$ kill %1
+	[1]-  Terminado               sleep 300
+	hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_02$ kill %2
+	[2]-  Terminado               sleep 200
+	hildelio@JR:~/Trybe-Exercicios/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_02$ kill %3
+	[3]-  Terminado               sleep 100
+	
