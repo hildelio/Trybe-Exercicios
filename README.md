@@ -25,10 +25,10 @@ OBS: blocos que não estejam listados tratam-se de blocos exclusivamente direcio
 <ol>
 <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento">Fundamentos do Desenvolvimento Web</a> 
   <ul>
-    <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix">Bloco 01 Unix & Bash</a>
+    <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash">Bloco 01 Unix & Bash</a>
       <ul>
-      <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix/Aula_01">Aula 01</a>
-      <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix/Aula_02">Aula 02</a>
+      <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_01">Aula 01</a>
+      <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_02">Aula 02</a>
     </ul>
   </ul>
   <ul>
