@@ -41,6 +41,9 @@ OBS: blocos que não estejam listados tratam-se de blocos exclusivamente direcio
     <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco03_Introdução_a_HTM_CSS">Bloco 03 Introdução à HTML e CSS</a>
       <ul>
        <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco03_Introdução_a_HTM_CSS/Aula_06">Aula 06</a>
+       <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco03_Introdução_a_HTM_CSS/Aula_07">Aula 07</a>
+       <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco03_Introdução_a_HTM_CSS/Aula_08">Aula 08</a>
+       <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco03_Introdução_a_HTM_CSS/Aula_09">Aula 09</a>
       </ul>
   </ul>
   
