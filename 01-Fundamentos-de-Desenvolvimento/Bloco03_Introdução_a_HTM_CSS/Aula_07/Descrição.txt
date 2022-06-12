@@ -1,0 +1,18 @@
+Estilizar Portfólio
+
+* Entre no diretório que você criou no dia anterior;
+
+* Adicione a tag <style></style>, que é onde você vai colocar suas alterações;
+
+* Procure uma paleta de cores com a qual você mais se identifique e que você pode gerar nesse site.
+
+* Lembre-se que, para executar o seu código enquanto o desenvolve, você deve utilizar a extensão Live Server. Para saber mais sobre ela, acesse nosso conteúdo sobre isso.
+
+
+// Decidi avançar um pouco este exercício e avancei esta etapa utilizando o <link rel="stylesheet" href="style.css">
+
+É possível conferir através dos links: 
+
+https://hildelio.github.io/
+https://github.com/hildelio/hildelio.github.io
+
