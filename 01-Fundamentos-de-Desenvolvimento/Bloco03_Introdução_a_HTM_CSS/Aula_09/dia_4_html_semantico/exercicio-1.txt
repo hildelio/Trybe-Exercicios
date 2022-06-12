@@ -1,1 +1,0 @@
-Este exercício se resume a criar uma branch organizar pastas e arquivos e fazer um merge.
