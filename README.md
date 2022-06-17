@@ -23,33 +23,54 @@ OBS: blocos que não estejam listados tratam-se de blocos exclusivamente direcio
 <hr>
 <h3> Sumário </h3>
 <ol>
-<li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento">Fundamentos do Desenvolvimento Web</a> 
+<li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento">Fundamentos do Desenvolvimento Web</a>
+  </li>
   <ul>
     <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash">Bloco 01 Unix & Bash</a>
+    </li>
       <ul>
       <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_01">Aula 01</a>
+        </li>
       <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco01_Unix_Bash/Aula_02">Aula 02</a>
+        </li>
     </ul>
   </ul>
   <ul>
     <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco02_Git_GitHub_Internet">Bloco 02 Git GitHub e Internet</a>
+    </li>
       <ul>
         <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco02_Git_GitHub_Internet/Aula_03">Aula 03</a>
+        </li>
         <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco02_Git_GitHub_Internet/Aula_04">Aula 04</a>
+        </li>
         <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco02_Git_GitHub_Internet/Aula_05">Aula 05</a>
+        </li>
       </ul>
     <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco03_Introdução_a_HTM_CSS">Bloco 03 Introdução à HTML e CSS</a>
+    </li>
       <ul>
        <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco03_Introdução_a_HTM_CSS/Aula_06">Aula 06</a>
+        </li>
        <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco03_Introdução_a_HTM_CSS/Aula_07">Aula 07</a>
+       </li>  
        <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco03_Introdução_a_HTM_CSS/Aula_08">Aula 08</a>
+        </li>
        <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco03_Introdução_a_HTM_CSS/Aula_09">Aula 09</a>
+        </li>
+         <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco03_Introdu%C3%A7%C3%A3o_a_HTM_CSS/Exerc%C3%ADcio_Bonus"> Exercício Bonus</a>
+        </li>
       </ul>
   </ul>
   
-<li><a href="">Desenvolvimento Front-end</a>
-<li><a href="">Desenvolvimento Back-end</a>
-<li><a href="">Ciencia da Computação</a>
+<li>
+  <a href="">Desenvolvimento Front-end</a>
+</li>
+<li>
+  <a href="">Desenvolvimento Back-end</a>
+</li>
+<li>
+  <a href="">Ciencia da Computação</a>
+</li>
 </ol>
 <hr>
 <h4>Bloco 1</h4>Unix, Bash e ShellScript
