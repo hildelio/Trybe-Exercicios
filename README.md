@@ -60,6 +60,19 @@ OBS: blocos que não estejam listados tratam-se de blocos exclusivamente direcio
          <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco03_Introdu%C3%A7%C3%A3o_a_HTM_CSS/Exerc%C3%ADcio_Bonus"> Exercício Bonus</a>
         </li>
       </ul>
+    <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco04_Introdução_a_JavaScript_LógicadeProgramação">Bloco 04 Introdução à JavaScript e Lógica de Programação</a>
+    </li>
+      <ul>
+        <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco04_Introdução_a_JavaScript_LógicadeProgramação/Aula_10">Aula 10</a>
+        </li>
+       <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco04_Introdução_a_JavaScript_LógicadeProgramação/Aula_11">Aula 11</a>
+       </li>  
+       <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco04_Introdução_a_JavaScript_LógicadeProgramação/Aula_12">Aula 12</a>
+        </li>
+       <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco04_Introdução_a_JavaScript_LógicadeProgramação/Aula_13">Aula 13</a>
+
+      </ul>
+    
   </ul>
   
 <li>
