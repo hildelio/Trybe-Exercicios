@@ -118,3 +118,51 @@ Escreva um programa que defina três números em constantes e retorne true se pe
 Bonus: use somente um if.
 */
 
+const num1=10
+const num2=47
+const num3=72
+
+if (num1%2==0 || num2%2==0 || num3%2==0) {
+    console.log(false)
+} else {
+    console.log(true)
+}
+
+/*
+Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele retorna false.
+Bonus: use somente um if.
+*/
+
+const num4=105
+const num5=472
+const num6=728
+
+if (num4%2!=0 || num5%2!=0 || num6%2!=0) {
+    console.log(true)
+} else {
+    console.log(false)
+}
+
+/*
+Escreva um programa que se inicie com dois valores em duas constantes diferentes: o custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
+Atente que, sobre o custo do produto, incide um imposto de 20%.
+Seu programa também deve emitir uma mensagem de erro e encerrar caso algum dos seus valores de entrada seja menor que zero.
+O lucro de um produto é o resultado da subtração do valor de venda pelo custo do mesmo, sendo que o imposto de 20% também faz parte do valor de custo.
+valorCustoTotal = valorCusto + impostoSobreOCusto
+lucro = valorVenda - valorCustoTotal (lucro de um produto)
+*/
+
+const valorCusto= 50
+const valorVenda= 100
+const quantidade= 1000
+
+let receita = quantidade*valorVenda 
+let impostoSobreOCusto= valorCusto*(20/100)
+let valorCustoTotal= quantidade*(valorCusto + impostoSobreOCusto)
+let lucro= receita - valorCustoTotal
+
+if (valorCusto==0 || valorVenda==0) {
+    console.log("Valores Inválidos")
+} else {
+    console.log(lucro)
+}
