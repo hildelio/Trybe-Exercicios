@@ -71,7 +71,7 @@ OBS: blocos que não estejam listados tratam-se de blocos exclusivamente direcio
         </li>
        <li><a href="https://github.com/hildelio/Trybe-Exercicios/tree/main/01-Fundamentos-de-Desenvolvimento/Bloco04_Introdução_a_JavaScript_LógicadeProgramação/Aula_13">Aula 13</a>
 
-      </ul>
+      
     
   </ul>
   
