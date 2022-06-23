@@ -72,6 +72,7 @@ Exemplo: bishop (bispo) -> diagonals (diagonais)
 /* 
 Tendo em vista que este exercício explora conteúdos ainda não estudados, acredito que o intuito é utilizar uma lógica com a estrutura "If" sem a necessidade de resolução. Mesmo tendo ciência do não funcionamento da função abaixo optei por deixar dessa forma com o intuito de não antecipar de forma precipitada os conteúdos a serem vistos.
 */
+
 /*
 let pecadexadrez=/rainha/i
 função(pecadexadrez); {
@@ -84,6 +85,7 @@ função(pecadexadrez); {
     }
 }
 */
+
 /*
 Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga essas regras:
 Porcentagem >= 90 -> A
