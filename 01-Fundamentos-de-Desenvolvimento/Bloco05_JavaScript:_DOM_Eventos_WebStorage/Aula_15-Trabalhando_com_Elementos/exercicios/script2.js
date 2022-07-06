@@ -56,7 +56,12 @@ console.log(novoNetinho);
 
 // A partir desse filho criado, acesse terceiroFilho.
 
-let neto = document.getElementsByName('Novo Netinho');
-for (const netinho of neto) {
-    console.log(netinho);
+let neto = document.querySelector("#primeiroFilhoDoFilho section");
+console.log(neto.parentNode.parentNode.nextSibling.nextSibling);
+
+// Remova todos os elementos filhos de paiDoPai exceto pai, elementoOndeVoceEsta e primeiroFilhoDoFilho.
+
+let paiDoPai = document.querySelectorAll("paiDoPai");
+for (const iterator of object) {
+    
 }
