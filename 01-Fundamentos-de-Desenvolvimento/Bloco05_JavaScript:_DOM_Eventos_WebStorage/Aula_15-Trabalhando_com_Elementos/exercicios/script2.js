@@ -61,7 +61,17 @@ console.log(neto.parentNode.parentNode.nextSibling.nextSibling);
 
 // Remova todos os elementos filhos de paiDoPai exceto pai, elementoOndeVoceEsta e primeiroFilhoDoFilho.
 
-let paiDoPai = document.querySelectorAll("paiDoPai");
-for (const iterator of object) {
-    
+let paiDoPai = document.querySelectorAll("#paiDoPai");
+paiDoPai.className = "paiDopai"
+let paiDoPai2 = document.querySelectorAll(".paiDoPai")
+console.log(paiDoPai2);
+for (const tudo of paiDoPai2) {
+    if (tudo !== document.getElementById("pai") || tudo !== document.getElementById("elementoOndeVoceEsta") || tudo !== document.getElementById("primeiroFilhoDoFilho")) {
+        paiDoPai2.removeChild(tudo);
+    }
+    console.log(paiDoPai2);
 }
+// Acredito que o problema seja porque estou gerando uma Node list com o QueryselectorAll e estou tendo problemas com a identificação dos elementos HTML.
+
+console.log(document.getElementById('stark_childs').lastChild)
+ 
