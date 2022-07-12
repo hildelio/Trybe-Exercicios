@@ -28,7 +28,8 @@ const myWebpage = document.getElementById('my-spotrybefy');
 
 const li = document.getElementsByTagName("li");
     for (const l of li) {
-        // l.attributes 
+        l.setAttribute("name", "lili") 
+        l.setAttribute("type", "checkbox")
         l.addEventListener('click', techClass);
     }
 
