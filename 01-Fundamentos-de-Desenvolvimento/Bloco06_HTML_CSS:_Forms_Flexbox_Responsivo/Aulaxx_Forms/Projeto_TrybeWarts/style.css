@@ -9,6 +9,7 @@
 
 .trybewarts-login {
   display: flex;
+  align-items: center;
 }
 
 main {
@@ -19,6 +20,7 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
+  gap: 0.5em;
 }
 
 #trybewarts-forms-logo {
@@ -40,5 +42,13 @@ main {
 
 #agree {
   display: flex;
+}
+
+#family {
+  display: flex;
+  flex-direction: column;
+  /* align-content: center;
+  justify-content: center;
+  justify-items: center; */
 }
 
